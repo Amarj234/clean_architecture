@@ -1,0 +1,28 @@
+name: custom_widgets
+description: Flutter package to manage the Custom Widgets.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  my_theme:
+    path: ../my_theme
+  utils:
+    path: ../utils
+  pinput: ^4.0.0
+  dropdown_button2: ^2.3.9
+  cached_network_image: ^3.3.1
+
+#  http: ^1.2.1
+#  http_client_helper: ^3.0.0
+#  http_interceptor: ^2.0.0-beta.8
+#  rx_shared_preferences: ^3.1.0
+#  json_annotation: ^4.6.0
+#
+#dev_dependencies:
+#  build_runner: ^2.0.0
+#  json_serializable: ^6.3.1

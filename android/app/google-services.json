@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "285850802871",
+    "project_id": "xenett-82b18",
+    "storage_bucket": "xenett-82b18.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:285850802871:android:3403fbfd18cde7ddca8b32",
+        "android_client_info": {
+          "package_name": "com.xenett.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1YFvG9CVAMR3w5W90NJicqFU-AVqwVm8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

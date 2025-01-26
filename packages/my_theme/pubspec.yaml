@@ -1,0 +1,14 @@
+name: my_theme
+description: Flutter package to manage the Theme.
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  utils:
+    path: ../utils
+  google_fonts: ^6.2.1
