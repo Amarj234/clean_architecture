@@ -50,26 +50,26 @@ class DefaultFirebaseOptions {
     apiKey: 'AIzaSyBb6dy1AFDP8UZyrTvGNnZLPVAxqvGsEv8',
     appId: '1:285850802871:android:3403fbfd18cde7ddca8b32',
     messagingSenderId: '285850802871',
-    projectId: 'amarjeet-82b18',
-    storageBucket: 'amar-82b18.firebasestorage.app',
+    projectId: 'clean_architecturejeet-82b18',
+    storageBucket: 'clean_architecture-82b18.firebasestorage.app',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyCOPnCJXQhVNnGYH6SMdS7fQkpRUZBPtz0',
     appId: '1:285850802871:ios:d48099e0426573a0ca8b32',
     messagingSenderId: '285850802871',
-    projectId: 'amarjeet-82b18',
-    storageBucket: 'amarjeet-82b18.firebasestorage.app',
+    projectId: 'clean_architecturejeet-82b18',
+    storageBucket: 'clean_architecturejeet-82b18.firebasestorage.app',
     iosClientId: '1:285850802871:android:3403fbfd18cde7ddca8b32',
-    iosBundleId: 'com.amarjeet.app',
+    iosBundleId: 'com.clean_architecturejeet.app',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyCOPnCJXQhVNnGYH6SMdS7fQkpRUZBPtz0',
     appId: '1:285850802871:ios:d48099e0426573a0ca8b32',
     messagingSenderId: '285850802871',
-    projectId: 'amar-82b18',
-    storageBucket: 'amar-82b18.firebasestorage.app',
-    iosBundleId: 'com.amarjeet.app',
+    projectId: 'clean_architecture-82b18',
+    storageBucket: 'clean_architecture-82b18.firebasestorage.app',
+    iosBundleId: 'com.clean_architecturejeet.app',
   );
 }

@@ -7,7 +7,7 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_upgrade_version/flutter_upgrade_version.dart';
 import 'package:login/login.dart';
 import 'package:my_theme/my_theme.dart';
-import 'package:amar/modules/theme_selector/themchange/themchange_bloc.dart';
+import 'package:clean_architecture/modules/theme_selector/themchange/themchange_bloc.dart';
 import '../backend/authentication/bloc/authentication_bloc.dart';
 import 'splash/splash.dart';
 

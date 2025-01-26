@@ -4,9 +4,9 @@ import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:amar/modules/app.dart';
-import 'package:amar/modules/firebase_options.dart';
-import 'package:amar/modules/notificationservice.dart';
+import 'package:clean_architecture/modules/app.dart';
+import 'package:clean_architecture/modules/firebase_options.dart';
+import 'package:clean_architecture/modules/notificationservice.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -14,7 +14,7 @@ Future<void> main() async {
     if (Firebase.apps.isEmpty) {
       if (Platform.isAndroid) {
         await Firebase.initializeApp(
-          name: "amar",
+          name: "clean_architecture",
           options: DefaultFirebaseOptions.currentPlatform,
         );
       } else if (Platform.isIOS) {

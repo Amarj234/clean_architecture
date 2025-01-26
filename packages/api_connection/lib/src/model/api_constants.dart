@@ -4,14 +4,14 @@ Constants related to the APIs.
 
 const dateFormat = "yyyy-MM-dd HH:mm:ss";
 
-// const PRIVACY_POLICY = "https://amar.com/privacy/privacy.html";
-// const TERMS_OF_USE = "https://amar.com/privacy/Terms.html";
+// const PRIVACY_POLICY = "https://xenett.com/privacy/privacy.html";
+// const TERMS_OF_USE = "https://xenett.com/privacy/Terms.html";
 
 // Stagging baseUrl Api
-//const baseUrl = "staging-cpapi.amar.com";
+//const baseUrl = "staging-cpapi.xenett.com";
 
 // Production Base URL Api
-const baseUrl = "cpapi.amar.com";
+const baseUrl = "cpapi.xenett.com";
 
 const apiVerson = '1.0.1';
 

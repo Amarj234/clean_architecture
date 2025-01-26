@@ -5,8 +5,8 @@ import 'package:custom_widgets/custom_widgets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:my_theme/my_theme.dart';
-import 'package:amar/modules/theme_selector/themchange/themchange_bloc.dart';
-import 'package:amar/modules/theme_selector/view/select_app_mode_cell.dart';
+import 'package:clean_architecture/modules/theme_selector/themchange/themchange_bloc.dart';
+import 'package:clean_architecture/modules/theme_selector/view/select_app_mode_cell.dart';
 import '../bloc/bloc.dart';
 part 'select_color_cell.dart';
 

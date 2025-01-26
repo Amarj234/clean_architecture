@@ -123,7 +123,7 @@ class _LoginFormState extends State<LoginForm> {
             ),
             const VSpacer(),
             Text(
-              "Log in to the amar",
+              "Log in to the xenett",
               style: context.textTheme.headlineSmall
                   ?.copyWith(fontSize: 18, fontWeight: FontWeight.w400),
               textAlign: TextAlign.center,

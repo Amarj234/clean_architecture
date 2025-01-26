@@ -18,7 +18,7 @@ class NotificationService {
   static const AndroidNotificationDetails _androidNotificationDetails =
       AndroidNotificationDetails(
     channelId,
-    "amarjeeet",
+    "clean_architecturejeeet",
     channelDescription:
         "This channel is responsible for all the local notifications",
     playSound: true,
@@ -113,7 +113,7 @@ class NotificationService {
       const NotificationDetails(
         // Android details
         android: AndroidNotificationDetails('main_channel', 'Main Channel',
-            channelDescription: "amarjeet",
+            channelDescription: "clean_architecturejeet",
             importance: Importance.max,
             priority: Priority.max),
         // iOS details

@@ -1,4 +1,4 @@
-package com.amar.app
+package com.xenett.app
 
 import io.flutter.embedding.android.FlutterActivity
 
