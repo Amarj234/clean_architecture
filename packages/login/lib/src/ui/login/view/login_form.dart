@@ -17,11 +17,10 @@ class _LoginFormState extends State<LoginForm> {
     super.initState();
     _focusEmail = FocusNode();
     _focusPass = FocusNode();
-    if(widget.isOpen==true) {
-       _initializeDeepLinking();
+    if (widget.isOpen == true) {
+      _initializeDeepLinking();
     }
     _appLinks.uriLinkStream.listen((Uri? initialLink) {
-
       if (initialLink != null) {
         String data = initialLink.toString().split("token=").last ?? "";
         print("deeplink234 link $data");
@@ -46,7 +45,6 @@ class _LoginFormState extends State<LoginForm> {
       }
     });
 
-
     var window = WidgetsBinding.instance.window;
     window.onPlatformBrightnessChanged = () async {
       WidgetsBinding.instance.handlePlatformBrightnessChanged();
@@ -54,7 +52,7 @@ class _LoginFormState extends State<LoginForm> {
       var brightness = window.platformBrightness;
       print("brightness234 $brightness");
       int themIdselect = await SPManager.instance.themdataselect ?? 1;
-      if(themIdselect==3){
+      if (themIdselect == 3) {
         // if( brightness == Brightness.dark){
         //   context.read<ThemchangeBloc>().add(
         //       const ThemchangeEvent(2,3));
@@ -119,13 +117,15 @@ class _LoginFormState extends State<LoginForm> {
             const VSpacer.l(),
             Text(
               "Welcome 👋",
-              style: context.textTheme.displayLarge?.copyWith(fontSize: 28,fontWeight: FontWeight.w600),
+              style: context.textTheme.displayLarge
+                  ?.copyWith(fontSize: 28, fontWeight: FontWeight.w600),
               textAlign: TextAlign.center,
             ),
             const VSpacer(),
             Text(
-              "Log in to the Xenett",
-              style: context.textTheme.headlineSmall?.copyWith(fontSize: 18,fontWeight: FontWeight.w400),
+              "Log in to the amar",
+              style: context.textTheme.headlineSmall
+                  ?.copyWith(fontSize: 18, fontWeight: FontWeight.w400),
               textAlign: TextAlign.center,
             ),
             const VSpacer(height: AppDimens.paddingXl),
@@ -162,15 +162,16 @@ class _LoginFormState extends State<LoginForm> {
             const VSpacer(),
             Center(
               child: TextButton(
-                onPressed: () async{
-
+                onPressed: () async {
                   FocusManager.instance.primaryFocus?.unfocus();
-                 Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const LoginWithPin()));
+                  Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                          builder: (context) => const LoginWithPin()));
                   // context.read<LoginBloc>().add(const LoginEvent.email("", true));
                   //
-                   controller.text="";
-                 },
+                  controller.text = "";
+                },
                 child: const Text(
                   "Or, Log in with PIN",
                 ),
@@ -184,7 +185,8 @@ class _LoginFormState extends State<LoginForm> {
   }
 }
 
-TextEditingController controller=TextEditingController();
+TextEditingController controller = TextEditingController();
+
 class _EmailInput extends StatelessWidget {
   final FocusNode focusNode;
   final Function(String) next;
@@ -240,7 +242,6 @@ class _LoginButton extends StatelessWidget {
                     : null,
                 child: const Text(
                   'Email me Login Link',
-
                 ),
               );
       },

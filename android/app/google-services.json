@@ -1,15 +1,15 @@
 {
   "project_info": {
     "project_number": "285850802871",
-    "project_id": "xenett-82b18",
-    "storage_bucket": "xenett-82b18.firebasestorage.app"
+    "project_id": "amar-82b18",
+    "storage_bucket": "amar-82b18.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
         "mobilesdk_app_id": "1:285850802871:android:3403fbfd18cde7ddca8b32",
         "android_client_info": {
-          "package_name": "com.xenett.app"
+          "package_name": "com.amar.app"
         }
       },
       "oauth_client": [],

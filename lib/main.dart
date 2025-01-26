@@ -1,25 +1,20 @@
-
-
-
 import 'dart:io';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_crashlytics/firebase_crashlytics.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter/material.dart';
 import 'package:permission_handler/permission_handler.dart';
-import 'package:xenett/modules/app.dart';
-import 'package:xenett/modules/firebase_options.dart';
-import 'package:xenett/modules/notificationservice.dart';
-
+import 'package:amar/modules/app.dart';
+import 'package:amar/modules/firebase_options.dart';
+import 'package:amar/modules/notificationservice.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   try {
     if (Firebase.apps.isEmpty) {
-
       if (Platform.isAndroid) {
         await Firebase.initializeApp(
-          name: "Xenett",
+          name: "amar",
           options: DefaultFirebaseOptions.currentPlatform,
         );
       } else if (Platform.isIOS) {
@@ -55,4 +50,3 @@ Future<void> main() async {
 
   runApp(const App());
 }
-
